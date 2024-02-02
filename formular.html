@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulär</title>
+        <link rel="stylesheet" href="formular.css">
+    </head>
+    <body>
+        <form action="formsvar.html" method="post">
+            <label for="fname">First name:</label><br>
+            <input type="text" name="fname" id="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" name="lname" id="lname"><br> <br>
+        </form>
+        <br>
+        <form action="formsvar.html" method="post">
+            <p>Vad har du?</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1">I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2">I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Airplane">
+            <label for="vehicle3">I have a airplane</label><br>
+        </form>
+        <br>
+        <form action="formsvar.html" method="post">
+            <p>Vilket är ditt favorit språk</p>
+            <input type="radio" id="C#" name="fav_kod" value="C#">
+            <label for="C#">C#</label><br>
+            <input type="radio" id="css" name="fav_kod" value="css">
+            <label for="css">CSS</label><br>    
+            <input type="radio" id="html" name="fav_kod" value="html">
+            <label for="html">HTML</label><br>
+        </form>
+        <br>
+        <form action="formsvar.html" method="post">
+            <select name="asd" id="asd">
+                <option value="asd">Tår</option>
+                <option value="asg">Markusses</option>
+                <option value="gasd">Magplask</option>
+                <option value="asd">Sj</option>
+                <option value="asg">Barn</option>
+                <option value="gasd">rumpa</option>
+            </select><br> <br>
+            <input type="submit" value="Submit"> 
+        </form>
+
+    </body>
+</html>
